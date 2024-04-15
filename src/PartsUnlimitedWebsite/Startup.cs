@@ -38,6 +38,7 @@ namespace PartsUnlimited
 
             if (useInMemoryDatabase || runningOnMono)
             {
+                var apikey1="secreto"; 
                 sqlConnectionString = "";
             }
 
